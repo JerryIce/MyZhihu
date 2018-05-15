@@ -7,10 +7,14 @@
 //
 
 #import "ContentViewController.h"
-#import <ReactiveCocoa.h>
+#import "ReactiveCocoa.h"
 #import <ReactiveCocoa/RACEXTScope.h>
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
 #import "ContentHeaderView.h"
+#import "ReactiveCocoa/RACEXTScope.h"
+#import "ReactiveCocoa/RACReturnSignal.h"
+#import "ReactiveCocoa/RACDisposable.h"
+#import "ReactiveCocoa/RACScheduler.h"
 
 @interface ContentViewController () <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;

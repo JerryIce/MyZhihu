@@ -9,8 +9,9 @@
 #import "ThemeBodyViewController.h"
 #import "NetworkClient.h"
 #import "ContentViewController.h"
-#import <TSMessage.h>
+#import "TSMessage.h"
 #import <ReactiveCocoa/RACEXTScope.h>
+#import "ReactiveCocoa/RACScheduler.h"
 
 @interface ThemeBodyViewController () <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;

@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveCocoa.h>
-#import <ReactiveCocoa/RACEXTScope.h>
+#import "ReactiveCocoa.h"
+#import "ReactiveCocoa/RACEXTScope.h"
+#import "ReactiveCocoa/RACReturnSignal.h"
+#import "ReactiveCocoa/RACDisposable.h"
+
+
 #import <CoreData/CoreData.h>
 
 @interface NetworkClient : NSObject

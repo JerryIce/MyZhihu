@@ -9,7 +9,7 @@
 #import "SideBarTableViewController.h"
 #import "AppDelegate.h"
 #import "Theme.h"
-#import <SWRevealViewController.h>
+#import "SWRevealViewController.h"
 #import "MainStoriesViewController.h"
 #import "ThemeStoriesViewController.h"
 
